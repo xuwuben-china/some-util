@@ -1,17 +1,18 @@
 # some-util 一些常用的工具方法
 
 ```
-
-|—— eventUtil               js原生事件兼容写法    
-|—— kilobit                 添加千位符
-|—— throttle                节流
-|—— CountDown               倒计时方法
-|—— formatTime              格式化时间
-|—— removeEmptyField        去空对象
-|—— pathConversionArr       将字符串路径转换为数组 "/home/demo/detail" => ["/home","/home/demo/","/home/demo/detail"]
-|—— flatten                 扁平化数组
-
-
+|—— js                        js方法
+|  |—— eventUtil               js原生事件兼容写法    
+|  |—— kilobit                 添加千位符
+|  |—— throttle                节流
+|  |—— CountDown               倒计时方法
+|  |—— formatTime              格式化时间
+|  |—— removeEmptyField        去空对象
+|  |—— pathConversionArr       将字符串路径转换为数组 "/home/demo/detail" => ["/home","/home/demo/","/home/demo/detail"]
+|  |—— flatten                 扁平化数组
+|—— react-components         react 组件
+|  |—— Editor                  富文本编辑组件
+|  |—— UpLoad                  上传图片组件
 ```
 
 ---
@@ -30,3 +31,4 @@
 3. moment                   日期处理类库
 4. react-countup            数组滚动
 5. react-cropper            图片裁剪
+6. braft-editor             富文本编辑
