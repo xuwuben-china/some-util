@@ -8,7 +8,7 @@ export const flatten = (arr, key, isRetain = false) => {
   return arr.reduce((result, item) => {
     if (key) {
       if (isRetain) {
-        return result.concat(Array.isArray(item[key]) ? flatten(item[key], key, true) : item).concat(Array.isArray(item.subs) ? item : []);
+        return result.concat(Array.isArray(item[key]) ? flatten(item[key], key, true) : item).concat(Array.isArray(item[key]) ? item : []);
       }
       return result.concat(Array.isArray(item[key]) ? flatten(item[key], key) : item);
     }
